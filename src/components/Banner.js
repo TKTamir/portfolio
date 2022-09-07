@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 export const Banner = () => {
   return (
@@ -16,6 +17,9 @@ export const Banner = () => {
               lorem ipsum lorem ipsum lorem ipsum
             </p>
             <button onClick={() => console.log('connect')}>Let's Connect</button>
+          </Col>
+          <Col xs={12} md={6} xl={5}>
+            <img src={} alt="Header IMG"/>
           </Col>
         </Row>
       </Container>
