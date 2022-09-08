@@ -51,10 +51,7 @@ export const Projects = () => {
               {({ isVisible }) => (
                 <div className={isVisible ? 'animate__animated animate__slideInUp' : ''}>
                   <h2>Projects</h2>
-                  <p>
-                    Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem Lorem ipsum lorem ipsum
-                    lorem ipsum lorem ipsum lorem
-                  </p>
+                  <p>Here you can check out some of the projects I've completed</p>
 
                   <Tab.Container id="project-tabs" defaultActiveKey="first">
                     <Nav
@@ -74,14 +71,15 @@ export const Projects = () => {
                     </Nav>
                     <Tab.Content>
                       <Tab.Pane eventKey="first">
+                        Backend
                         <Row>
                           {projects.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="second">Lorem Ipsum2</Tab.Pane>
-                      <Tab.Pane eventKey="third">Lorem Ipsum3</Tab.Pane>
+                      <Tab.Pane eventKey="second">Frontend</Tab.Pane>
+                      <Tab.Pane eventKey="third">Native</Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
                 </div>
