@@ -61,14 +61,14 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
-                <img src={navIcon1} alt="" />
+              <a href="https://www.linkedin.com/in/tamir-kahalany-6b9baa143">
+                <img src={navIcon1} alt="LinkedIn Icon" />
               </a>
-              <a href="#">
-                <img src={navIcon2} alt="" />
+              <a href="https://github.com/">
+                <img src={navIcon2} alt="GitHub Icon" />
               </a>
-              <a href="#">
-                <img src={navIcon3} alt="" />
+              <a href="https://twitter.com/TamirKahalany">
+                <img src={navIcon3} alt="Twitter Icon" />
               </a>
             </div>
             <button className="vvd" onClick={() => console.log('connect')}>
