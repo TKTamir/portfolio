@@ -61,8 +61,9 @@ export const Banner = () => {
                     <span className="wrap">{text}</span>
                   </h1>
                   <p>
-                    Lorem ipsum loren ipsum lorem ipsum lorem ipsum lorem ipsum Lorem ipsum loren
-                    ipsum lorem ipsum lorem ipsum lorem ipsum
+                    Hi, I'm Tamir Kahalany. I'm a Full-Stack Web Developer based in Berlin, I've
+                    recently finished the Full-Stack Web Developer program in CareerFoundry and I'm
+                    looking forward to my first challenge.
                   </p>
                   <button onClick={() => console.log('connect')}>
                     Let's Connect
