@@ -2,9 +2,14 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Container, Col, Row } from 'react-bootstrap';
-import meter1 from '../assets/img/meter1.svg';
-import meter2 from '../assets/img/meter2.svg';
-import meter3 from '../assets/img/meter3.svg';
+import logoHtml from '../assets/img/logohtml.png';
+import logoCss3 from '../assets/img/logocss3.png';
+import logoJs from '../assets/img/logojs.png';
+import logoReact from '../assets/img/logoReact.png';
+import logoAngular from '../assets/img/logoangular.png';
+import logoNodejs from '../assets/img/logoNodejs.png';
+import logoBootstrap from '../assets/img/logoBootstrap.png';
+
 import colorSharp from '../assets/img/color-sharp.png';
 
 export const Skills = () => {
@@ -41,31 +46,31 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={logoHtml} alt="Image" className="skill-logo" />
                   <h5>HTML5</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
+                  <img src={logoCss3} alt="Image" className="skill-logo" />
                   <h5>CSS3</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
+                  <img src={logoJs} alt="Image" className="skill-logo" />
                   <h5>JavaScript</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>React</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Image" />
+                  <img src={logoNodejs} alt="Image" className="skill-logo" />
                   <h5>Node.js</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
+                  <img src={logoReact} alt="Image" className="skill-logo" />
+                  <h5>React</h5>
+                </div>
+                <div className="item">
+                  <img src={logoAngular} alt="Image" className="skill-logo" />
                   <h5>Angular</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
+                  <img src={logoBootstrap} alt="Image" className="skill-logo" />
                   <h5>Bootstrap</h5>
                 </div>
               </Carousel>
