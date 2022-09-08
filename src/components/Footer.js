@@ -14,14 +14,14 @@ export const Footer = () => {
           </Col>
           <Col sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="">
-                <img src={navIcon1} />
+              <a href="https://www.linkedin.com/in/tamir-kahalany-6b9baa143">
+                <img src={navIcon1} alt="LinkedIn Icon" />
               </a>
-              <a href="">
-                <img src={navIcon2} />
+              <a href="https://github.com/">
+                <img src={navIcon2} alt="GitHub Icon" />
               </a>
-              <a href="">
-                <img src={navIcon3} />
+              <a href="https://twitter.com/TamirKahalany">
+                <img src={navIcon3} alt="Twitter Icon" />
               </a>
             </div>
             <p>CopyRight 2022. All Rights Reserved Tamir Nissim Kahalany</p>
