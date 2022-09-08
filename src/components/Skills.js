@@ -2,13 +2,13 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Container, Col, Row } from 'react-bootstrap';
-import logoHtml from '../assets/img/logohtml.png';
-import logoCss3 from '../assets/img/logocss3.png';
-import logoJs from '../assets/img/logojs.png';
-import logoReact from '../assets/img/logoReact.png';
-import logoAngular from '../assets/img/logoangular.png';
-import logoNodejs from '../assets/img/logoNodejs.png';
-import logoBootstrap from '../assets/img/logoBootstrap.png';
+import logoHtml from '../assets/img/languages-logos/logohtml.png';
+import logoCss3 from '../assets/img/languages-logos/logocss3.png';
+import logoJs from '../assets/img/languages-logos/logojs.png';
+import logoReact from '../assets/img/languages-logos/logoReact.png';
+import logoAngular from '../assets/img/languages-logos/logoangular.png';
+import logoNodejs from '../assets/img/languages-logos/logoNodejs.png';
+import logoBootstrap from '../assets/img/languages-logos/logoBootstrap.png';
 
 import colorSharp from '../assets/img/color-sharp.png';
 
