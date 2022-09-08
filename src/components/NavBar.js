@@ -26,7 +26,7 @@ export const NavBar = () => {
     setActiveLink(value);
   };
   return (
-    <Navbar bg="light" expand="lg" className={scrolled ? 'scrolled' : ''}>
+    <Navbar expand="md" className={scrolled ? 'scrolled' : ''}>
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} alt="Logo" />
