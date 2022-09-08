@@ -111,7 +111,6 @@ span.navbar-text {
 }
 
 .social-icon a::before {
-  content: "";
   width: 42px;
   height: 42px;
   position: absolute;
@@ -123,6 +122,7 @@ span.navbar-text {
 
 .social-icon a:hover::before {
   transform: scale(1);
+
 }
 
 .social-icon a img {
@@ -355,6 +355,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+
+.skill-logo {
+  max-height: 83.5px;
+  max-width: 83.5px;
 }
 
 /************ Projects Css ************/
