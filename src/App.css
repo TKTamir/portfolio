@@ -227,6 +227,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+/* Let's Connect Button */
+
+.contact-btn {
+  font-weight: 700;
+  color: #fff !important;
+  border: 1px solid #fff;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin-left: 18px;
+  position: relative;
+  background-color: transparent;
+  z-index: 1;
+}
+
+/* Re-align nav buttons */
+.me-auto {
+  margin-left: 15px;
+}
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -311,6 +330,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+.banner-paragraph {
+  margin-bottom: 35px;
+}
+
 /************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;
@@ -363,19 +386,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Projects Css ************/
-.project {
+.projects {
   padding: 80px 0;
   position: relative;
   background-color: black;
 }
 
-.project h2 {
+.projects h2 {
   font-size: 45px;
   font-weight: 700;
   text-align: center;
 }
 
-.project p {
+.projects p {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -385,7 +408,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 
-.project .nav.nav-pills {
+.projects .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
@@ -393,11 +416,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 
-.project .nav.nav-pills .nav-item {
+.projects .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
 
-.project .nav.nav-pills .nav-link {
+.projects .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
@@ -412,7 +435,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 0;
 }
 
-.project .nav.nav-pills .nav-link::before {
+.projects .nav.nav-pills .nav-link::before {
   content: "";
   position: absolute;
   width: 0;
@@ -424,11 +447,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
 }
 
-.project .nav.nav-pills .nav-link.active::before {
+.projects .nav.nav-pills .nav-link.active::before {
   width: 100% !important;
 }
 
-.project .nav.nav-pills .nav-link.active {
+.projects .nav.nav-pills .nav-link.active {
   border: 1px solid rgba(255, 255, 255, 1);
 }
 
