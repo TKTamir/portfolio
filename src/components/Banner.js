@@ -47,6 +47,7 @@ export const Banner = () => {
       setDelta(500);
     }
   };
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -60,15 +61,15 @@ export const Banner = () => {
                     {`Hi I'm a `}
                     <span className="wrap">{text}</span>
                   </h1>
-                  <p>
+                  <p className="banner-paragraph">
                     Hi, I'm Tamir Kahalany. I'm a Full-Stack Web Developer based in Berlin, I've
                     recently finished the Full-Stack Web Developer program in CareerFoundry and I'm
                     looking forward to my first challenge.
                   </p>
-                  <button onClick={() => console.log('connect')}>
+                  <a href="#contact" className="contact-btn">
                     Let's Connect
                     <ArrowRightCircle size={25} />
-                  </button>
+                  </a>
                 </div>
               )}
             </TrackVisibility>
