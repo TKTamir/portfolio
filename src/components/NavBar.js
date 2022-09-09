@@ -71,9 +71,9 @@ export const NavBar = () => {
                 <img src={navIcon3} alt="Twitter Icon" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log('connect')}>
+            <a href="#contact" className="vvd contact-btn">
               Let's Connect
-            </button>
+            </a>
           </span>
         </Navbar.Collapse>
       </Container>
