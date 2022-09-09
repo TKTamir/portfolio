@@ -19,30 +19,35 @@ export const Projects = () => {
       description:
         'Portfolio website built with HTML and CSS3, the website includes a contact form and an SVG animation.',
       imgUrl: portfolioImg,
+      appUrl: 'https://tktamir.github.io/old-portfolio/',
     },
     {
       title: 'Pokedex App',
       description:
         'Pokedex app is a simple app that lists Pokémons by name and shows their data, Clicking on a Pokémon entry displays more details about the Pokémon. In the app Pokémons can be filtered by their names. All data is loaded from the PokeAPI.',
       imgUrl: pokeImg,
+      appUrl: 'https://tktamir.github.io/Pokedex---Tamir-Kahalany/',
     },
     {
       title: 'MyFlix Movies App React',
       description:
         'Client-side for a movies App based on an existing-server side code (REST API and MongoDB database), built with React.',
       imgUrl: flixImg,
+      appUrl: 'https://appformovies.netlify.app/',
     },
     {
       title: 'Meet Progressive Web App',
       description:
         'Serverless, Progressive Web App built with React using a test-driven Development (TDD) approach. The App uses the Google Calendar API to fetch upcoming events.',
       imgUrl: meetImg,
+      appUrl: 'https://tktamir.github.io/meet/',
     },
     {
       title: 'MyFlix Movies App Angular ',
       description:
         'Client-side for a movies App based on existing server-side code (REST API and MongoDB database) with supporting documentation.',
       imgUrl: flixAngularImg,
+      appUrl: 'https://tktamir.github.io/myFlix-Angular-Client/welcome',
     },
   ];
 
@@ -52,6 +57,7 @@ export const Projects = () => {
       description:
         'Server-side component of a movies web application, the API allows users to get data about movies, genres and directors as well as storing favorite movies in the database after signing up. built with Node.js, Express and MongoDB.',
       imgUrl: apiImg,
+      appUrl: 'https://appformovies.herokuapp.com/documentation',
     },
   ];
 
@@ -61,6 +67,7 @@ export const Projects = () => {
       description:
         'React-Native Chat App developed using Expo, the App provieds users with a chat interface and options to share images and their location.',
       imgUrl: chatImg,
+      appUrl: 'https://github.com/TKTamir/chatup',
     },
   ];
 
