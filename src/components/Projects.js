@@ -10,46 +10,62 @@ import apiImg from '../assets/img/project-images/api.png';
 import flixImg from '../assets/img/project-images/appformovies.png';
 import meetImg from '../assets/img/project-images/meet.png';
 import flixAngularImg from '../assets/img/project-images/angularImg.png';
+import chatImg from '../assets/img/project-images/chatUp.png';
 
 export const Projects = () => {
-  const projects = [
+  const frontProjects = [
     {
-      title: 'Pokedex App',
+      title: 'Portfolio Website',
       description:
         'Portfolio website built with HTML and CSS3, the website includes a contact form and an SVG animation.',
       imgUrl: portfolioImg,
     },
     {
-      title: 'React Movies App',
+      title: 'Pokedex App',
       description:
         'Pokedex app is a simple app that lists Pokémons by name and shows their data, Clicking on a Pokémon entry displays more details about the Pokémon. In the app Pokémons can be filtered by their names. All data is loaded from the PokeAPI.',
       imgUrl: pokeImg,
     },
     {
-      title: 'Chat Native App',
-      description: 'Design & Development',
-      imgUrl: apiImg,
-    },
-    {
-      title: 'Meet Progressive Web App',
-      description: 'Design & Development',
+      title: 'MyFlix Movies App React',
+      description:
+        'Client-side for a movies App based on an existing-server side code (REST API and MongoDB database), built with React.',
       imgUrl: flixImg,
     },
     {
-      title: 'Angular Movies App',
-      description: 'Design & Development',
+      title: 'Meet Progressive Web App',
+      description:
+        'Serverless, Progressive Web App built with React using a test-driven Development (TDD) approach. The App uses the Google Calendar API to fetch upcoming events.',
       imgUrl: meetImg,
     },
     {
-      title: 'Node.js Movies API ',
+      title: 'MyFlix Movies App Angular ',
       description:
-        'Server-side component of a movies web application, the API allows users to get data about movies, genres and directors as well as storing favorite movies in the database after signing up. built with Node.js, Express and MongoDB.',
+        'Client-side for a movies App based on existing server-side code (REST API and MongoDB database) with supporting documentation.',
       imgUrl: flixAngularImg,
     },
   ];
 
+  const backProjects = [
+    {
+      title: 'Node.js Movies API ',
+      description:
+        'Server-side component of a movies web application, the API allows users to get data about movies, genres and directors as well as storing favorite movies in the database after signing up. built with Node.js, Express and MongoDB.',
+      imgUrl: apiImg,
+    },
+  ];
+
+  const nativeProjects = [
+    {
+      title: 'Chat Native App',
+      description:
+        'React-Native Chat App developed using Expo, the App provieds users with a chat interface and options to share images and their location.',
+      imgUrl: chatImg,
+    },
+  ];
+
   return (
-    <section className="project" id="project">
+    <section className="projects" id="projects">
       <Container>
         <Row>
           <Col size={12}>
@@ -79,13 +95,23 @@ export const Projects = () => {
                       <Tab.Pane eventKey="first">
                         Frontend Applications
                         <Row>
-                          {projects.map((project, index) => {
+                          {frontProjects.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">Backend Applications</Tab.Pane>
+                      <Row>
+                        {backProjects.map((project, index) => {
+                          return <ProjectCard key={index} {...project} />;
+                        })}
+                      </Row>
                       <Tab.Pane eventKey="third">Native Applications</Tab.Pane>
+                      <Row>
+                        {nativeProjects.map((project, index) => {
+                          return <ProjectCard key={index} {...project} />;
+                        })}
+                      </Row>
                     </Tab.Content>
                   </Tab.Container>
                 </div>
