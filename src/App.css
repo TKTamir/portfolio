@@ -534,6 +534,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.project-url {
+  margin-bottom: 25px;
+}
+
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
