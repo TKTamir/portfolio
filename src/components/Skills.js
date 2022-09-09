@@ -9,6 +9,12 @@ import logoReact from '../assets/img/languages-logos/logoReact.png';
 import logoAngular from '../assets/img/languages-logos/logoangular.png';
 import logoNodejs from '../assets/img/languages-logos/logoNodejs.png';
 import logoBootstrap from '../assets/img/languages-logos/logoBootstrap.png';
+import logoRedux from '../assets/img/languages-logos/logoredux.png';
+import logoExpress from '../assets/img/languages-logos/logoexpress.png';
+import logoMongo from '../assets/img/languages-logos/logomongo.png';
+import logoPost from '../assets/img/languages-logos/logopostgre.png';
+import logoJquery from '../assets/img/languages-logos/logojquery.png';
+import logoFire from '../assets/img/languages-logos/logofire.png';
 
 import colorSharp from '../assets/img/color-sharp.png';
 
@@ -72,6 +78,30 @@ export const Skills = () => {
                 <div className="item">
                   <img src={logoBootstrap} alt="Image" className="skill-logo" />
                   <h5>Bootstrap</h5>
+                </div>
+                <div className="item">
+                  <img src={logoRedux} alt="Image" className="skill-logo" />
+                  <h5>Redux</h5>
+                </div>
+                <div className="item">
+                  <img src={logoExpress} alt="Image" className="skill-logo" />
+                  <h5>Express</h5>
+                </div>
+                <div className="item">
+                  <img src={logoMongo} alt="Image" className="skill-logo" />
+                  <h5>MongoDB</h5>
+                </div>
+                <div className="item">
+                  <img src={logoPost} alt="Image" className="skill-logo" />
+                  <h5>PostgreSQL</h5>
+                </div>
+                <div className="item">
+                  <img src={logoJquery} alt="Image" className="skill-logo" />
+                  <h5>Firebase</h5>
+                </div>
+                <div className="item">
+                  <img src={logoFire} alt="Image" className="skill-logo" />
+                  <h5>jQuery</h5>
                 </div>
               </Carousel>
             </div>
