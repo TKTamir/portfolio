@@ -107,18 +107,22 @@ export const Projects = () => {
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="second">Backend Applications</Tab.Pane>
-                      <Row>
-                        {backProjects.map((project, index) => {
-                          return <ProjectCard key={index} {...project} />;
-                        })}
-                      </Row>
-                      <Tab.Pane eventKey="third">Native Applications</Tab.Pane>
-                      <Row>
-                        {nativeProjects.map((project, index) => {
-                          return <ProjectCard key={index} {...project} />;
-                        })}
-                      </Row>
+                      <Tab.Pane eventKey="second">
+                        Backend Applications
+                        <Row>
+                          {backProjects.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="third">
+                        Native Applications
+                        <Row>
+                          {nativeProjects.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
+                      </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
                 </div>
