@@ -68,7 +68,7 @@ export const Banner = () => {
                   </p>
                   <a href="#contact" className="contact-btn">
                     Let's Connect
-                    <ArrowRightCircle size={25} />
+                    <ArrowRightCircle size={25} className="arrowRightCircle" />
                   </a>
                 </div>
               )}

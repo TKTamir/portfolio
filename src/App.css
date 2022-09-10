@@ -338,6 +338,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 35px;
 }
 
+.arrowRightCircle {
+  margin-left: 25px;
+}
+
 /************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;
