@@ -4,7 +4,6 @@ import { ProjectCard } from './ProjectCard';
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 import colorSharp2 from '../assets/img/color-sharp2.png';
-import portfolioImg from '../assets/img/project-images/portfolio.png';
 import pokeImg from '../assets/img/project-images/pokedex.png';
 import apiImg from '../assets/img/project-images/api.png';
 import flixImg from '../assets/img/project-images/appformovies.png';
@@ -14,13 +13,6 @@ import chatImg from '../assets/img/project-images/chatUp.png';
 
 export const Projects = () => {
   const frontProjects = [
-    {
-      title: 'Portfolio Website',
-      description:
-        'Portfolio website built with HTML and CSS3, the website includes a contact form and an SVG animation.',
-      imgUrl: portfolioImg,
-      appUrl: 'https://tktamir.github.io/old-portfolio/',
-    },
     {
       title: 'Pokedex App',
       description:
