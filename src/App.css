@@ -231,6 +231,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+/*********** Contact Section *********/
+.contact {
+  margin: 10px;
+}
+
 /* Let's Connect Button */
 
 .contact-btn {
@@ -244,6 +249,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: transparent;
   z-index: 1;
 }
+
 
 /* Re-align nav buttons */
 .me-auto {
@@ -483,6 +489,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+
 }
 
 .proj-imgbx::before {
@@ -493,10 +500,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
   height: 0;
   transition: 0.4s ease-in-out;
+
 }
 
 .proj-imgbx:hover::before {
   height: 100%;
+
 }
 
 .proj-txtx {
@@ -513,6 +522,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
+  padding: 15px;
+
 }
 
 .proj-txtx h4 {
@@ -548,6 +559,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 405px;
 
 }
+
 
 /************ Footer Css ************/
 .footer {

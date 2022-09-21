@@ -5,7 +5,9 @@ export const Contact = () => {
         <p>
           Tamir Nissim Kahalany <br /> Berlin, Germany.
         </p>
-        <a href="mailto: tamirkhy@gmail.com">tamirkhy@gmail.com</a>
+        <a target="blank" href="mailto: tamirkhy@gmail.com">
+          tamirkhy@gmail.com
+        </a>
       </div>
     </section>
   );

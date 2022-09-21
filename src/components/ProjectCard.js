@@ -12,7 +12,9 @@ export const ProjectCard = ({ title, description, imgUrl, appUrl }) => {
         </div>
       </div>
       <div className="project-url">
-        <a href={appUrl}>Open</a>
+        <a target="blank" href={appUrl}>
+          Open
+        </a>
       </div>
     </Col>
   );
