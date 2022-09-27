@@ -3,6 +3,9 @@ import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/social-icons/nav-icon1.svg';
 import navIcon2 from '../assets/img/social-icons/nav-git-icon.svg';
 import navIcon3 from '../assets/img/social-icons/nav-twitter-icon.svg';
+
+import { Link } from 'react-router-dom';
+
 export const Footer = () => {
   return (
     <footer className="footer">
@@ -26,6 +29,9 @@ export const Footer = () => {
             <p>CopyRight 2022. All Rights Reserved Tamir Nissim Kahalany</p>
           </Col>
         </Row>
+        <Link target="_blank" to="/impressum">
+          Impressum
+        </Link>
       </Container>
     </footer>
   );
