@@ -62,9 +62,13 @@ export const Banner = () => {
                     <span className="wrap">{text}</span>
                   </h1>
                   <p className="banner-paragraph">
-                    Hi, I'm Tamir Kahalany. I'm a Full-Stack Web Developer based in Berlin, I've
-                    recently finished the Full-Stack Web Developer program in CareerFoundry and I'm
-                    looking forward to my first challenge.
+                    Hi, I’m Tamir. I’m a developer that previously worked as a Customer Success
+                    Manager and Account Manager for PayPal Berlin, both roles were concentrated on
+                    assisting and guiding the company’s high ranking merchants. My role included
+                    solving issues, providing guidance and organizing data about our merchant’s
+                    businesses. After finishing the Full-Stack developer course with CareerFoundry,
+                    I now wish to expand my knowledge and improve my skills as a developer by taking
+                    on new challenges in the tech-industry.
                   </p>
                   <a href="#contact" className="contact-btn">
                     Let's Connect
