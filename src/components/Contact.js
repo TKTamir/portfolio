@@ -10,9 +10,7 @@ export const Contact = () => {
         </a>
         <br />
 
-        <a target="blank" href="mailto: tamirkhy@gmail.com">
-          tamirkhy@gmail.com
-        </a>
+        <a href="mailto: tamirkhy@gmail.com">tamirkhy@gmail.com</a>
       </div>
     </section>
   );
