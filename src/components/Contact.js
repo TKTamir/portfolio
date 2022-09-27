@@ -6,7 +6,7 @@ export const Contact = () => {
           Tamir Nissim Kahalany <br /> Berlin, Germany.
         </p>
         <a href="./src/assets/doc/Tamir_Nissim_Kahalany-CV.pdf" download>
-          My CV
+          Download My CV
         </a>
         <br />
 
