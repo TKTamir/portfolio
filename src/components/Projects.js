@@ -120,6 +120,12 @@ export const Projects = () => {
                 </div>
               )}
             </TrackVisibility>
+            <div>
+              Here you can review a Case Study for my Full-Stack MERN application <br />
+              <a target="_blank" href="./src/assets/doc/CaseStudy.pdf" download>
+                Download Case Study
+              </a>
+            </div>
           </Col>
         </Row>
       </Container>
